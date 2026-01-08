@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap
+Sitemap: https://jahidwebdev.github.io/sitemap.xml
+
+# Crawl Delay
+Crawl-delay: 10
+
+# Bing Bot
+User-agent: bingbot
+Allow: /
+
+# Google Bot
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 5
